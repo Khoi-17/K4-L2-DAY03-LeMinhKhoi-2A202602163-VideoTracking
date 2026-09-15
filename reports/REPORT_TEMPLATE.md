@@ -74,10 +74,10 @@ Cấu hình từ `outputs/model_run_config.json`:
 
 | So sánh | HOTA | DetA | AssA | LocA | IDF1 | MOTA | MOTP | FP | FN | IDSW |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| bạn vs gold | | | | | | | | | | |
-| ByteTrack control vs gold | | | | | | | | | | |
-| BoT-SORT + ReID vs gold | | | | | | | | | | |
-| ReID vs bạn | | | | | | | | | | |
+| bạn vs gold | 0.808 | 0.789 | 0.831 | 0.859 | 0.961 | 0.920 | 0.846 | 33 | 13 | 0 |
+| ByteTrack control vs gold | 0.709 | 0.649 | 0.776 | 0.846 | 0.875 | 0.749 | 0.823 | 88 | 54 | 2 |
+| BoT-SORT + ReID vs gold | 0.763 | 0.711 | 0.820 | 0.872 | 0.900 | 0.792 | 0.860 | 91 | 26 | 2 |
+| ReID vs bạn | 0.751 | 0.699 | 0.808 | 0.871 | 0.892 | 0.781 | 0.858 | 86 | 41 | 3 |
 
 ## 5. Phân tích — năm câu hỏi
 
